@@ -1,9 +1,9 @@
-ALUNO - LUCAS KENZO NISHIWAKI / RM 561325 / TURMA 1CCR
+# ALUNO - LUCAS KENZO NISHIWAKI / RM 561325 / TURMA 1CCR
 
-INSTRUÇÕES DA ENTREGA:
-A atividade pode ser desenvolvida em grupo.
-Apenas um integrante submete a atividade.
-Enviar apenas o link do repositório.
+## INSTRUÇÕES DA ENTREGA:
+**1)** A atividade pode ser desenvolvida em grupo.
+**2)** Apenas um integrante submete a atividade.
+**3)** Enviar apenas o link do repositório.
 
 # Individual Household Electric Power Consumption
 
