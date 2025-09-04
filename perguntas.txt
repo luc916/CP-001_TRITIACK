@@ -1,0 +1,44 @@
+Exercício 22 – Autocorrelação do consumo
+Autocorrelação (1h): 0,713
+Autocorrelação (24h): 0,436
+Autocorrelação (48h): 0,401
+Resumo: existem padrões repetidos diariamente.
+
+Exercício 24 – Visualização de clusters no espaço PCA
+3 clusters KMeans
+Os grupos se separam visualmente após redução para 2 componentes principais.
+
+Exercício 27 – Distribuição do consumo
+O consumo de Appliances tende a se concentrar em valores baixos.
+
+Exercício 28 – Correlações com variáveis ambientais
+As correlações são todas relativamente baixas (mais próximas de 0).
+As maiores correlações positivas são com T2 (0.120) e T_out (0.099), ou seja, temperatura interna e externa.
+As demais variáveis (T1, T3, RH_1, RH_2, RH_3) têm correlações muito pequenas ou negativas, indicando pouca relação.
+O consumo de Appliances tem uma leve relação com a temperatura interna e externa, mas, de modo geral, nenhum fator ambiental tem forte influência sobre o consumo.
+
+Exercício 30 – PCA
+Após redução para 2 componentes, o gráfico mostra amontoado central e algumas linhas nas laterais, não aparecem agrupamentos naturais claros.
+
+Exercício 35 – Avaliação de classificação
+Regressão Logística: acurácia 76,4%, F1-score 0,736 → erra mais para alto consumo.
+Random Forest: acurácia 89,4%, F1-score 0,884 → também erra mais para alto consumo, mas menos que a Regressão Logística.
+
+Exercício 36 – Importação e visualização inicial
+Variáveis: 9 | Registros: 2.075.259
+
+Exercício 37 – Amostragem de dados (1%)
+A distribuição de Global_active_power na amostra é semelhante à base completa.
+
+Exercício 38 – Distribuição do consumo
+O consumo é concentrado em valores baixos (0 a 1) com alguns picos esparsos em valores mais altos.
+
+Exercício 39 – Relação entre variáveis elétricas
+Correlação Voltage x Global_intensity: -0,41 → não há correlação forte, apenas moderada negativa.
+
+Exercício 40 – Clustering com K-Means
+Cluster 1: Sub_metering_1=-0.000282, Sub_metering_2=-0.022114, Sub_metering_3=0.090210
+Cluster 2: Sub_metering_1=0.012588, Sub_metering_2=0.044318, Sub_metering_3=-0.061143
+Cluster 3: Sub_metering_1=-0.012155, Sub_metering_2=-0.021911, Sub_metering_3=-0.028803
+
+Resumo: cada cluster representa um padrão distinto de consumo doméstico.
